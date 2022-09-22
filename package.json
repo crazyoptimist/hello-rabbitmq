@@ -1,0 +1,14 @@
+{
+  "name": "hello-rabbitmq",
+  "version": "1.0.0",
+  "description": "RabbitMQ POC in Node.js",
+  "scripts": {
+    "send": "node send.js",
+    "receive": "node receive.js"
+  },
+  "author": "crazyoptimist <hey@crazyoptimist.net>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
